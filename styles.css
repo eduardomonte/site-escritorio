@@ -1,26 +1,26 @@
 body {
   padding: 80px 0px 0px 0px;
   margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Audrey', sans-serif;;
 }
 
 h1 {
   font-size: 40px;
   font-weight: bolder;
-  margin: 0px;
+  margin: 0 10px;
   padding: 0px;
   color: rgba(216, 197, 93, 0.918);
   margin-right: 0px;
-  margin-top: -40px;
+  margin-top: 0px;
+  font-family: 'Audrey', sans-serif;
 }
 h3{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: rgba(216, 197, 93, 0.918);
-  margin: -100px;
-  margin-top: -60px;
-  margin-left: -380px;
-  
+  margin: 0 10px;
+  margin-right: 300px;
+  font-family: 'Audrey', sans-serif; 
 }
 
 
@@ -29,6 +29,7 @@ a  {
   margin-right: 24px;
   color: rgba(216, 197, 93, 0.918);
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
@@ -44,6 +45,7 @@ button {
   padding-right: 12px;
   cursor: pointer;
   margin-right: 50px;
+  font-family: 'Audrey', sans-serif; 
 }
 
 .root-container {
@@ -79,6 +81,7 @@ button {
   justify-content: space-between;
   margin-top: -80px;
   background-color: rgb(9, 43, 40);
+  
 }
 
 .office-icon {
