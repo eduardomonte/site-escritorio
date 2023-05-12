@@ -87,5 +87,7 @@ button {
 .office-icon {
   width: 70px;
   height: 70px;
-  margin-left: 36px;
+  padding: 10px;
+  margin-right: 150px;
+
 }
