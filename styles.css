@@ -14,13 +14,25 @@ h1 {
   margin-top: 0px;
   font-family: 'Audrey', sans-serif;
 }
+
+h2{
+  height: 100vh;
+  width: 100%;
+  font-size: 24px;
+  color: rgba(216, 197, 93, 0.918);
+  margin-top: 75px; 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  padding: 50px;
+  margin-top: 5%;
+}
+
 h3{
   font-size: 18px;
   font-weight: bold;
   color: rgba(216, 197, 93, 0.918);
   margin: 0 10px;
-  margin-right: 300px;
-  font-family: 'Audrey', sans-serif; 
+  margin-right: 300px; 
 }
 
 
@@ -45,7 +57,6 @@ button {
   padding-right: 12px;
   cursor: pointer;
   margin-right: 50px;
-  font-family: 'Audrey', sans-serif; 
 }
 
 .root-container {
@@ -89,5 +100,19 @@ button {
   height: 70px;
   padding: 10px;
   margin-right: 150px;
+}
 
+.hero-about-us {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 12px;
+  background-color: rgb(8, 41, 38);
+}
+
+.hero-about-us-img {
+  width: 100vw;
+  height: 100%;
 }
