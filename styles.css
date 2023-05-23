@@ -44,6 +44,16 @@ a  {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a.contact  {
+  font-size: large;
+  font-size: 32px;
+  font-style: oblique;
+  color: rgba(216, 197, 93, 0.918);
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
 button {
   height: 56px;
   border-radius: 16px;
@@ -113,6 +123,15 @@ button {
 }
 
 .hero-about-us-img {
-  width: 100vw;
+  width: 100%;
   height: 100%;
+}
+
+.office-icon-about-us {
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  padding: 50px;
+  margin-left: 24%;
+
 }
